@@ -1,0 +1,39 @@
+html{
+  scroll-snap-type: y mandatory;
+}
+
+.App{
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.app_logo{
+  height: 12vh;
+}
+
+.app_top{
+  margin-bottom: -60px;
+}
+
+.app_top > h1{
+  color: white;
+  text-align: center;
+  margin-top: -5px;
+}
+
+.video_container{
+ position: relative;
+ height: 70vh;
+ width: 22%;
+ background-color: white;
+ border-radius: 20px;
+ max-width: 450px;
+ max-height: 1200px;
+ overflow: scroll;
+ scroll-snap-type: y mandatory;
+}
+
+.video_container::-webkit-scrollbar{
+  display: none;
+}
